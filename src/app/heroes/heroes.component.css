@@ -9,19 +9,19 @@
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: #EEE;
+    background-color: rgb(201, 184, 30);
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
     }
     .heroes li:hover {
-        color: #607D8B;
-        background-color: #DDD;
+        color: rgb(92, 181, 226);
+        background-color: rgb(75, 70, 70);
         left: .1em;
         }
         .heroes li.selected {
-        background-color: #CFD8DC;
+        background-color: rgb(152, 203, 224);
         color: white;
         }
         .heroes li.selected:hover {
@@ -31,9 +31,9 @@
         .heroes .badge {
         display: inline-block;
         font-size: small;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 0.8em 0.7em 0 0.7em;
-        background-color:#405061;
+        background-color:#021d3a;
         line-height: 1em;
         position: relative;
         left: -1px;
